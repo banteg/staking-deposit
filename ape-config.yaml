@@ -1,0 +1,10 @@
+name: staking deposit
+test:
+  mnemonic: test test test test test test test test test test test junk
+  number_of_accounts: 5
+ethereum:
+  default_network: goerli-fork
+  goerli_fork:
+    default_provider: foundry
+foundry:
+  port: auto
